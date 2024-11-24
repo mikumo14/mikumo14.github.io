@@ -1,15 +1,14 @@
-body
-{
-
-    background: linear-gradient(135deg, #71b7e6, #9b59b6)
+@font-face {
+    font-family: space;
+    src: url("SpaceGrotesk-VariableFont_wght.ttf");
 }
 
 .box-container{
     
-    background-color: #ffffff7e;
+    background-color: #ffffff61;
     
     outline: auto;
-    outline-color: rgba(255, 255, 255, 0.275);
+    outline-color:#92dcff;
     outline-width: 10px;
 
     margin: 50px;
