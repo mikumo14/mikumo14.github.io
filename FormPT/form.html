@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class ="container-fluid">
+        <div class ="box-container">
+            <div class ="container">
+                <form class="needs-validation" novalidate>
+                    <div class="row g-4">
+
+                        <div class ="col-md-12 text-center">
+                            <h1>MONITOR SPECIFICATIONS</h1>
+                        </div>
+
+                        <div class="MonitorInformation">
+                            
+
+                            <h1>Monitor Information</h1> <br>
+
+                            <div class="row g-4">
+
+                                <!-- brand -->
+                                <div class="col md-4">
+                                    <div class="form-floating">
+                                        
+                                        <input list="brands"  id="dtBrand"  class="form-control" required placeholder="-">
+                                        <label for="floatingInput">Monitor Brand</label>
+                                        
+
+                                        <datalist id="brands">
+                                            <option value="ASUS">
+                                            <option value="DELL">
+                                            <option value="SAMSUNG">
+                                            <option value="HP">
+                                            <option value="MSI">
+                                            <option value="LG">
+                                            <option value="ACER">
+                                            <option value="GIGABYTE">
+                                            <option value="LENOVO">
+                                            <option value="VIEWSONIC">
+                                            <option value="AOC">
+                                            <option value="BENQ">
+                                        </datalist>
+
+                                        <div class="invalid-feedback">Monitor Brand is required</div>
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="row-cols-3">
+                                        <div class="form-floating">
+
+                                            
+                                        <select name="resolution" id="res" class="form-control" required placeholder="resolution">
+                                            <option>720p</option>
+                                            <option>1080p</option>
+                                            <option>1440p</option>
+                                            <option>4k</option>
+                                            <option>5k</option>
+                                        </select>
+                                        <label for="res" id="lbl">Screen resolution</label>
+                                        <div class="invalid-feedback">Screen resolution is required</div>
+                                    </div>
+                                </div>
+
+                                    <div class="row-cols-3">
+
+                                        <div class="form-floating">
+
+                                        <input type="number" id="size" class="form-control"  required placeholder="-">
+                                        <label for="floatingInput">Monitor Size(in)</label>
+                                        <div class="invalid-feedback">Monitor Size is required</div>
+
+                                    </div>
+                                    </div>
+
+                                       <!-- screen -->
+                                <div class="col md-" >
+                                    
+                                    <label id="lbl">Type of screen</label> <br>
+
+                                        <input type="radio" id="VA" name="screen" value="VA" required>
+                                        <label for="VA">VA PANEL</label> <br>
+                                        <input type="radio" id="IPS" name="screen" value="IPS" required>
+                                        <label for="IPS">IPS PANEL</label> <br>
+                                        <input type="radio" id="OLED" name="screen" value="OLED" required>
+                                        <label for="OLED">OLED</label> <br>
+                                        <input type="radio" id="OTHER" name="screen" value="OTHER" required>
+                                        <label for="OTHER">OTHER</label> <br>
+
+                                        <div class="invalid-feedback">Type of screen is required</div>
+                                    
+                                </div>
+
+                                    <div class="col md-4">
+                                        
+                                        <label for="checkbox" id="lbl">Screen resolution</label> <br>
+
+                                        <input type="checkbox" id="hz">
+                                        <label for="hz">60 Hz</label> <br>
+                                        <input type="checkbox" id="hz1">
+                                        <label for="hz">75 Hz</label> <br>
+                                        <input type="checkbox" id="hz2">
+                                        <label for="hz">144 Hz</label> <br>
+                                        <input type="checkbox" id="hz3">
+                                        <label for="hz">165 Hz</label> <br>
+                                        <input type="checkbox" id="hz">
+                                        <label for="hz">240 Hz</label> <br>
+                                        <input type="checkbox" id="hz">
+                                        <label for="hz">360 Hz</label><br>
+                                        <div class="invalid-feedback">Refresh Rate(Hz) is required</div>
+
+                                    </div>
+
+                                    <div class="col md-4">
+
+                                        <label id="lbl">Built-in Speaker</label> <br>
+
+                                        <input type="radio" id="yes" name="speaker" value="yes" required>
+                                        <label for="LCD">YES</label> 
+                                        <input type="radio" id="no" name="speaker" value="no" required>
+                                        <label for="IPS">NO</label> 
+                                        <div class="invalid-feedback">This section is required</div>
+                                        
+                                    </div>
+
+                                    <div class="col md-4">
+                                        <label for="colorMonitor">Color</label>
+                                        <input type="color" id="colorMonitor" name="colorMonitor" required>
+                                        <div class="invalid-feedback">Color of is required</div>
+                                    </div>
+
+
+                                    
+                               
+
+                                </div>
+                            </div>
+                           
+                        </div>
+
+                        <br>
+
+                        <div class="otherinfo">
+                            <div class="row g-4">
+                                <h1>Other Information</h1>
+
+                                <div class="col md-4">
+                                    <div class="form-floating">
+
+                                    <input type="number" id="price" class="form-control" required placeholder="-">
+                                    <label for="floatingInput">Price(PHP)</label>
+                                    <div class="invalid-feedback">Price is required</div>
+                                </div>
+                                </div>
+
+                                <div class="col md-4">
+                                    <div class="form-floating">
+                                    <input type="date" class="form-control" id="rdate" required placeholder="-">
+                                    <label for="floatingInput">Date Released</label>
+                                    <div class="invalid-feedback">Released Date is required</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="col-md-3 mx-auto ">
+                            <button class="btn btn-primary form-control" id="btnSubmit" type="submit">Submit form</button>
+                        </div>
+
+
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="js/form.js"></script>

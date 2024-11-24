@@ -1,0 +1,47 @@
+body
+{
+
+    background: linear-gradient(135deg, #71b7e6, #9b59b6)
+}
+
+.box-container{
+    
+    background-color: #ffffff7e;
+    
+    outline: auto;
+    outline-color: rgba(255, 255, 255, 0.275);
+    outline-width: 10px;
+
+    margin: 50px;
+    padding: 5%;
+    outline-style: double;
+}
+
+.MonitorInformation{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 3%;
+
+}
+.otherinfo{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px; 
+    padding: 3%;
+}
+#btnSubmit{
+    color: black;
+    background: none;
+}
+#btnSubmit:hover{
+    background-color: #71b7e6;
+}
+#lbl{
+    font-weight: bold;
+}
+input{
+    background-color: #71b7e6;
+}
