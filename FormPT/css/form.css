@@ -8,7 +8,6 @@
     background-color: #192838;
     
     color: #11ba8c;
-    outline: auto;
     margin: 50px;
     padding: 2%;
     border-radius: 10px;
@@ -26,7 +25,7 @@
 .otherinfo{
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: #11ba8c;
     border-radius: 10px; 
     padding: 3%;
 }
@@ -45,6 +44,13 @@
 input{
     background-color: #71b7e6;
 }
-#dtBrand{
-    color: #192838;
+
+input[type="radio"]{
+    accent-color: #11ba8c;
+}
+input[type="checkbox"]{
+    accent-color: #11ba8c;
+}
+#screenResMax{
+    font-size: small;
 }
