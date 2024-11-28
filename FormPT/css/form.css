@@ -5,21 +5,20 @@
 
 .box-container{
     
-    background-color: #ffffff61;
+    background-color: #192838;
     
+    color: #11ba8c;
     outline: auto;
-    outline-color:#92dcff;
-    outline-width: 10px;
-
     margin: 50px;
     padding: 2%;
-    outline-style: double;
+    border-radius: 10px;
+    border-style: none;
 }
 
 .MonitorInformation{
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    /* border-color: black; */
     border-radius: 10px;
     padding: 3%;
 
@@ -32,15 +31,20 @@
     padding: 3%;
 }
 #btnSubmit{
-    color: black;
+    color: #11ba8c;
+    border-color: #11ba8c;
     background: none;
 }
 #btnSubmit:hover{
-    background-color: #71b7e6;
+    background-color:#11ba8c;
+    color: #192838;
 }
 #lbl{
     font-weight: bold;
 }
 input{
     background-color: #71b7e6;
+}
+#dtBrand{
+    color: #192838;
 }
